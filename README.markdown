@@ -17,7 +17,7 @@
 
 # XPWeekKataStringCalculatorObjectiveC #
 
-This proyect is the result of doing the String Calculator Kata (http://osherove.com/tdd-kata-1/) in Objective-C to the [XPWeek](http://xpweek.es/) 2011.
+This proyect is the result of doing the [String Calculator Kata](http://osherove.com/tdd-kata-1/) in Objective-C to the [XPWeek](http://xpweek.es/) 2011.
 
 In the XPWeek 2011 I talked about how to do [TDD in Objective-C with OCUnit and OCMock](http://xpweek.es/?p=104).
 
