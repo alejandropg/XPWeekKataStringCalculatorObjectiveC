@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2CEA31142CA517006E8F98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2CEA30142CA517006E8F98 /* UIKit.framework */; };
+		FA2CEA33142CA517006E8F98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2CEA32142CA517006E8F98 /* Foundation.framework */; };
+		FA2CEA35142CA517006E8F98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2CEA34142CA517006E8F98 /* CoreGraphics.framework */; };
+		FA2CEA3B142CA517006E8F98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA2CEA39142CA517006E8F98 /* InfoPlist.strings */; };
+		FA2CEA3D142CA517006E8F98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2CEA3C142CA517006E8F98 /* main.m */; };
+		FA2CEA41142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2CEA40142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate.m */; };
+		FA2CEA45142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2CEA44142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate_iPhone.m */; };
+		FA2CEA48142CA517006E8F98 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2CEA46142CA517006E8F98 /* MainWindow_iPhone.xib */; };
+		FA2CEA4C142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2CEA4B142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate_iPad.m */; };
+		FA2CEA4F142CA518006E8F98 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2CEA4D142CA518006E8F98 /* MainWindow_iPad.xib */; };
+		FA2CEA57142CA518006E8F98 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2CEA56142CA518006E8F98 /* SenTestingKit.framework */; };
+		FA2CEA58142CA518006E8F98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2CEA30142CA517006E8F98 /* UIKit.framework */; };
+		FA2CEA59142CA518006E8F98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2CEA32142CA517006E8F98 /* Foundation.framework */; };
+		FA2CEA5A142CA518006E8F98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2CEA34142CA517006E8F98 /* CoreGraphics.framework */; };
+		FA2CEA62142CA518006E8F98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA2CEA60142CA518006E8F98 /* InfoPlist.strings */; };
+		FA2CEA64142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests.h in Resources */ = {isa = PBXBuildFile; fileRef = FA2CEA63142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests.h */; };
+		FA2CEA66142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2CEA65142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests.m */; };
+		FA2CEA79142CABE9006E8F98 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2CEA78142CABE8006E8F98 /* libOCMock.a */; };
+		FA2CEA80142CAC39006E8F98 /* NumbersTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2CEA7C142CAC39006E8F98 /* NumbersTokenizer.m */; };
+		FA2CEA81142CAC39006E8F98 /* NumbersTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2CEA7C142CAC39006E8F98 /* NumbersTokenizer.m */; };
+		FA2CEA82142CAC39006E8F98 /* StringCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2CEA7E142CAC39006E8F98 /* StringCalculator.m */; };
+		FA2CEA83142CAC39006E8F98 /* StringCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2CEA7E142CAC39006E8F98 /* StringCalculator.m */; };
+		FA2CEA95142CAC7D006E8F98 /* MyOwnException.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2CEA8E142CAC7D006E8F98 /* MyOwnException.m */; };
+		FA2CEA96142CAC7D006E8F98 /* NumbersTokenizerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2CEA90142CAC7D006E8F98 /* NumbersTokenizerTest.m */; };
+		FA2CEA97142CAC7D006E8F98 /* StringCalculatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2CEA92142CAC7D006E8F98 /* StringCalculatorTest.m */; };
+		FA2CEA98142CAC7D006E8F98 /* TestingWithOCUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2CEA94142CAC7D006E8F98 /* TestingWithOCUnitTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA2CEA5B142CA518006E8F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2CEA23142CA517006E8F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2CEA2B142CA517006E8F98;
+			remoteInfo = XPWeekKataStringCalculatorObjectiveC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA2CEA2C142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPWeekKataStringCalculatorObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2CEA30142CA517006E8F98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA2CEA32142CA517006E8F98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA2CEA34142CA517006E8F98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA2CEA38142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XPWeekKataStringCalculatorObjectiveC-Info.plist"; sourceTree = "<group>"; };
+		FA2CEA3A142CA517006E8F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA2CEA3C142CA517006E8F98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA2CEA3E142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XPWeekKataStringCalculatorObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
+		FA2CEA3F142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPWeekKataStringCalculatorObjectiveCAppDelegate.h; sourceTree = "<group>"; };
+		FA2CEA40142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPWeekKataStringCalculatorObjectiveCAppDelegate.m; sourceTree = "<group>"; };
+		FA2CEA43142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XPWeekKataStringCalculatorObjectiveCAppDelegate_iPhone.h; path = iPhone/XPWeekKataStringCalculatorObjectiveCAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		FA2CEA44142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XPWeekKataStringCalculatorObjectiveCAppDelegate_iPhone.m; path = iPhone/XPWeekKataStringCalculatorObjectiveCAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		FA2CEA47142CA517006E8F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		FA2CEA4A142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XPWeekKataStringCalculatorObjectiveCAppDelegate_iPad.h; path = iPad/XPWeekKataStringCalculatorObjectiveCAppDelegate_iPad.h; sourceTree = "<group>"; };
+		FA2CEA4B142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XPWeekKataStringCalculatorObjectiveCAppDelegate_iPad.m; path = iPad/XPWeekKataStringCalculatorObjectiveCAppDelegate_iPad.m; sourceTree = "<group>"; };
+		FA2CEA4E142CA518006E8F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		FA2CEA55142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPWeekKataStringCalculatorObjectiveCTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2CEA56142CA518006E8F98 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FA2CEA5F142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XPWeekKataStringCalculatorObjectiveCTests-Info.plist"; sourceTree = "<group>"; };
+		FA2CEA61142CA518006E8F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA2CEA63142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPWeekKataStringCalculatorObjectiveCTests.h; sourceTree = "<group>"; };
+		FA2CEA65142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPWeekKataStringCalculatorObjectiveCTests.m; sourceTree = "<group>"; };
+		FA2CEA72142CABE8006E8F98 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		FA2CEA73142CABE8006E8F98 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		FA2CEA74142CABE8006E8F98 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		FA2CEA75142CABE8006E8F98 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		FA2CEA76142CABE8006E8F98 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		FA2CEA77142CABE8006E8F98 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		FA2CEA78142CABE8006E8F98 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		FA2CEA7B142CAC39006E8F98 /* NumbersTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbersTokenizer.h; sourceTree = "<group>"; };
+		FA2CEA7C142CAC39006E8F98 /* NumbersTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersTokenizer.m; sourceTree = "<group>"; };
+		FA2CEA7D142CAC39006E8F98 /* StringCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCalculator.h; sourceTree = "<group>"; };
+		FA2CEA7E142CAC39006E8F98 /* StringCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCalculator.m; sourceTree = "<group>"; };
+		FA2CEA7F142CAC39006E8F98 /* Tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tokenizer.h; sourceTree = "<group>"; };
+		FA2CEA8D142CAC7D006E8F98 /* MyOwnException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOwnException.h; sourceTree = "<group>"; };
+		FA2CEA8E142CAC7D006E8F98 /* MyOwnException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOwnException.m; sourceTree = "<group>"; };
+		FA2CEA8F142CAC7D006E8F98 /* NumbersTokenizerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbersTokenizerTest.h; sourceTree = "<group>"; };
+		FA2CEA90142CAC7D006E8F98 /* NumbersTokenizerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersTokenizerTest.m; sourceTree = "<group>"; };
+		FA2CEA91142CAC7D006E8F98 /* StringCalculatorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCalculatorTest.h; sourceTree = "<group>"; };
+		FA2CEA92142CAC7D006E8F98 /* StringCalculatorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCalculatorTest.m; sourceTree = "<group>"; };
+		FA2CEA93142CAC7D006E8F98 /* TestingWithOCUnitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestingWithOCUnitTest.h; sourceTree = "<group>"; };
+		FA2CEA94142CAC7D006E8F98 /* TestingWithOCUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestingWithOCUnitTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2CEA29142CA517006E8F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2CEA31142CA517006E8F98 /* UIKit.framework in Frameworks */,
+				FA2CEA33142CA517006E8F98 /* Foundation.framework in Frameworks */,
+				FA2CEA35142CA517006E8F98 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2CEA51142CA518006E8F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2CEA57142CA518006E8F98 /* SenTestingKit.framework in Frameworks */,
+				FA2CEA58142CA518006E8F98 /* UIKit.framework in Frameworks */,
+				FA2CEA59142CA518006E8F98 /* Foundation.framework in Frameworks */,
+				FA2CEA5A142CA518006E8F98 /* CoreGraphics.framework in Frameworks */,
+				FA2CEA79142CABE9006E8F98 /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2CEA21142CA517006E8F98 = {
+			isa = PBXGroup;
+			children = (
+				FA2CEA36142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveC */,
+				FA2CEA5D142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests */,
+				FA2CEA7A142CAC39006E8F98 /* model */,
+				FA2CEA8C142CAC7D006E8F98 /* modelTests */,
+				FA2CEA2F142CA517006E8F98 /* Frameworks */,
+				FA2CEA6F142CABE8006E8F98 /* Libraries */,
+				FA2CEA2D142CA517006E8F98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2CEA2D142CA517006E8F98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2CEA2C142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveC.app */,
+				FA2CEA55142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2CEA2F142CA517006E8F98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA2CEA30142CA517006E8F98 /* UIKit.framework */,
+				FA2CEA32142CA517006E8F98 /* Foundation.framework */,
+				FA2CEA34142CA517006E8F98 /* CoreGraphics.framework */,
+				FA2CEA56142CA518006E8F98 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA2CEA36142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				FA2CEA3F142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate.h */,
+				FA2CEA40142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate.m */,
+				FA2CEA42142CA517006E8F98 /* iPhone */,
+				FA2CEA49142CA517006E8F98 /* iPad */,
+				FA2CEA37142CA517006E8F98 /* Supporting Files */,
+			);
+			path = XPWeekKataStringCalculatorObjectiveC;
+			sourceTree = "<group>";
+		};
+		FA2CEA37142CA517006E8F98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2CEA38142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveC-Info.plist */,
+				FA2CEA39142CA517006E8F98 /* InfoPlist.strings */,
+				FA2CEA3C142CA517006E8F98 /* main.m */,
+				FA2CEA3E142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA2CEA42142CA517006E8F98 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				FA2CEA43142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate_iPhone.h */,
+				FA2CEA44142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate_iPhone.m */,
+				FA2CEA46142CA517006E8F98 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		FA2CEA49142CA517006E8F98 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				FA2CEA4A142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate_iPad.h */,
+				FA2CEA4B142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate_iPad.m */,
+				FA2CEA4D142CA518006E8F98 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		FA2CEA5D142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2CEA63142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests.h */,
+				FA2CEA65142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests.m */,
+				FA2CEA5E142CA518006E8F98 /* Supporting Files */,
+			);
+			path = XPWeekKataStringCalculatorObjectiveCTests;
+			sourceTree = "<group>";
+		};
+		FA2CEA5E142CA518006E8F98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2CEA5F142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests-Info.plist */,
+				FA2CEA60142CA518006E8F98 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA2CEA6F142CABE8006E8F98 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FA2CEA70142CABE8006E8F98 /* Headers */,
+				FA2CEA78142CABE8006E8F98 /* libOCMock.a */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		FA2CEA70142CABE8006E8F98 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				FA2CEA71142CABE8006E8F98 /* OCMock */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		FA2CEA71142CABE8006E8F98 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				FA2CEA72142CABE8006E8F98 /* NSNotificationCenter+OCMAdditions.h */,
+				FA2CEA73142CABE8006E8F98 /* OCMArg.h */,
+				FA2CEA74142CABE8006E8F98 /* OCMConstraint.h */,
+				FA2CEA75142CABE8006E8F98 /* OCMock.h */,
+				FA2CEA76142CABE8006E8F98 /* OCMockObject.h */,
+				FA2CEA77142CABE8006E8F98 /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		FA2CEA7A142CAC39006E8F98 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FA2CEA7B142CAC39006E8F98 /* NumbersTokenizer.h */,
+				FA2CEA7C142CAC39006E8F98 /* NumbersTokenizer.m */,
+				FA2CEA7D142CAC39006E8F98 /* StringCalculator.h */,
+				FA2CEA7E142CAC39006E8F98 /* StringCalculator.m */,
+				FA2CEA7F142CAC39006E8F98 /* Tokenizer.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FA2CEA8C142CAC7D006E8F98 /* modelTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2CEA8D142CAC7D006E8F98 /* MyOwnException.h */,
+				FA2CEA8E142CAC7D006E8F98 /* MyOwnException.m */,
+				FA2CEA8F142CAC7D006E8F98 /* NumbersTokenizerTest.h */,
+				FA2CEA90142CAC7D006E8F98 /* NumbersTokenizerTest.m */,
+				FA2CEA91142CAC7D006E8F98 /* StringCalculatorTest.h */,
+				FA2CEA92142CAC7D006E8F98 /* StringCalculatorTest.m */,
+				FA2CEA93142CAC7D006E8F98 /* TestingWithOCUnitTest.h */,
+				FA2CEA94142CAC7D006E8F98 /* TestingWithOCUnitTest.m */,
+			);
+			path = modelTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2CEA2B142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2CEA69142CA518006E8F98 /* Build configuration list for PBXNativeTarget "XPWeekKataStringCalculatorObjectiveC" */;
+			buildPhases = (
+				FA2CEA28142CA517006E8F98 /* Sources */,
+				FA2CEA29142CA517006E8F98 /* Frameworks */,
+				FA2CEA2A142CA517006E8F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPWeekKataStringCalculatorObjectiveC;
+			productName = XPWeekKataStringCalculatorObjectiveC;
+			productReference = FA2CEA2C142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA2CEA54142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2CEA6C142CA518006E8F98 /* Build configuration list for PBXNativeTarget "XPWeekKataStringCalculatorObjectiveCTests" */;
+			buildPhases = (
+				FA2CEA50142CA518006E8F98 /* Sources */,
+				FA2CEA51142CA518006E8F98 /* Frameworks */,
+				FA2CEA52142CA518006E8F98 /* Resources */,
+				FA2CEA53142CA518006E8F98 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2CEA5C142CA518006E8F98 /* PBXTargetDependency */,
+			);
+			name = XPWeekKataStringCalculatorObjectiveCTests;
+			productName = XPWeekKataStringCalculatorObjectiveCTests;
+			productReference = FA2CEA55142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2CEA23142CA517006E8F98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Autentia;
+			};
+			buildConfigurationList = FA2CEA26142CA517006E8F98 /* Build configuration list for PBXProject "XPWeekKataStringCalculatorObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA2CEA21142CA517006E8F98;
+			productRefGroup = FA2CEA2D142CA517006E8F98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2CEA2B142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveC */,
+				FA2CEA54142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2CEA2A142CA517006E8F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2CEA3B142CA517006E8F98 /* InfoPlist.strings in Resources */,
+				FA2CEA48142CA517006E8F98 /* MainWindow_iPhone.xib in Resources */,
+				FA2CEA4F142CA518006E8F98 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2CEA52142CA518006E8F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2CEA62142CA518006E8F98 /* InfoPlist.strings in Resources */,
+				FA2CEA64142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA2CEA53142CA518006E8F98 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2CEA28142CA517006E8F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2CEA3D142CA517006E8F98 /* main.m in Sources */,
+				FA2CEA41142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate.m in Sources */,
+				FA2CEA45142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate_iPhone.m in Sources */,
+				FA2CEA4C142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCAppDelegate_iPad.m in Sources */,
+				FA2CEA80142CAC39006E8F98 /* NumbersTokenizer.m in Sources */,
+				FA2CEA82142CAC39006E8F98 /* StringCalculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2CEA50142CA518006E8F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2CEA66142CA518006E8F98 /* XPWeekKataStringCalculatorObjectiveCTests.m in Sources */,
+				FA2CEA81142CAC39006E8F98 /* NumbersTokenizer.m in Sources */,
+				FA2CEA83142CAC39006E8F98 /* StringCalculator.m in Sources */,
+				FA2CEA95142CAC7D006E8F98 /* MyOwnException.m in Sources */,
+				FA2CEA96142CAC7D006E8F98 /* NumbersTokenizerTest.m in Sources */,
+				FA2CEA97142CAC7D006E8F98 /* StringCalculatorTest.m in Sources */,
+				FA2CEA98142CAC7D006E8F98 /* TestingWithOCUnitTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA2CEA5C142CA518006E8F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2CEA2B142CA517006E8F98 /* XPWeekKataStringCalculatorObjectiveC */;
+			targetProxy = FA2CEA5B142CA518006E8F98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA2CEA39142CA517006E8F98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2CEA3A142CA517006E8F98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA2CEA46142CA517006E8F98 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2CEA47142CA517006E8F98 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FA2CEA4D142CA518006E8F98 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2CEA4E142CA518006E8F98 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		FA2CEA60142CA518006E8F98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2CEA61142CA518006E8F98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA2CEA67142CA518006E8F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA2CEA68142CA518006E8F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2CEA6A142CA518006E8F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XPWeekKataStringCalculatorObjectiveC/XPWeekKataStringCalculatorObjectiveC-Prefix.pch";
+				INFOPLIST_FILE = "XPWeekKataStringCalculatorObjectiveC/XPWeekKataStringCalculatorObjectiveC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA2CEA6B142CA518006E8F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XPWeekKataStringCalculatorObjectiveC/XPWeekKataStringCalculatorObjectiveC-Prefix.pch";
+				INFOPLIST_FILE = "XPWeekKataStringCalculatorObjectiveC/XPWeekKataStringCalculatorObjectiveC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA2CEA6D142CA518006E8F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XPWeekKataStringCalculatorObjectiveC.app/XPWeekKataStringCalculatorObjectiveC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XPWeekKataStringCalculatorObjectiveC/XPWeekKataStringCalculatorObjectiveC-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/Headers";
+				INFOPLIST_FILE = "XPWeekKataStringCalculatorObjectiveCTests/XPWeekKataStringCalculatorObjectiveCTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-force_load",
+					"$(PROJECT_DIR)/Libraries/libOCMock.a",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FA2CEA6E142CA518006E8F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XPWeekKataStringCalculatorObjectiveC.app/XPWeekKataStringCalculatorObjectiveC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XPWeekKataStringCalculatorObjectiveC/XPWeekKataStringCalculatorObjectiveC-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/Headers";
+				INFOPLIST_FILE = "XPWeekKataStringCalculatorObjectiveCTests/XPWeekKataStringCalculatorObjectiveCTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-force_load",
+					"$(PROJECT_DIR)/Libraries/libOCMock.a",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2CEA26142CA517006E8F98 /* Build configuration list for PBXProject "XPWeekKataStringCalculatorObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2CEA67142CA518006E8F98 /* Debug */,
+				FA2CEA68142CA518006E8F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2CEA69142CA518006E8F98 /* Build configuration list for PBXNativeTarget "XPWeekKataStringCalculatorObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2CEA6A142CA518006E8F98 /* Debug */,
+				FA2CEA6B142CA518006E8F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA2CEA6C142CA518006E8F98 /* Build configuration list for PBXNativeTarget "XPWeekKataStringCalculatorObjectiveCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2CEA6D142CA518006E8F98 /* Debug */,
+				FA2CEA6E142CA518006E8F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2CEA23142CA517006E8F98 /* Project object */;
+}
